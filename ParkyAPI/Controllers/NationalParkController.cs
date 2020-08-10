@@ -22,7 +22,7 @@ namespace ParkyAPI.Controllers
 
         public IActionResult GetAllParks()
         {
-            var praks = _npRepository.GetAll().ToList() ;
+            var praks = _npRepository.etAll().ToList() ;
             return Ok(praks);
         }
     }
